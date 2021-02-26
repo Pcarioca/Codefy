@@ -12,9 +12,10 @@ var v = ["Nothing in life is to be feared, it is only to be understood. Now is t
 var produse["lapte","paine","oua"]; /*in cazul asta n e 2*/
 var preturi["2 lei","3 lei", "4 lei"];
 function AfisarePreturi(){
-    Ok=0;
+    
 for(j=0;j<nr/*Cate chestii is in localstorage */,j++)
 for(i=0;i<n/*cate produse is*/,i+=1)
+ {Ok=0;
     if(produse[i]==localStorage.getItem(j))
     {
     alert("Produsul: ",produse[i]," costa: ",preturi[i]);
@@ -23,4 +24,5 @@ for(i=0;i<n/*cate produse is*/,i+=1)
     }
     if(Ok==0)
     alert("Nu s-a gasit produsul!")
+}
 }
