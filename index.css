@@ -89,6 +89,16 @@ body{
     background-color: rgb(39, 39, 43);
     
 }*/
+a{
+  color:white;
+  /*font-size: inherit;
+  font-weight: inherit;*/
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  color:rgb(0, 0, 0);
+}
 .white{
   color:rgb(255, 255, 255)
 }
