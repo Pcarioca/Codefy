@@ -41,22 +41,18 @@ document.addEventListener('DOMContentLoaded', function () {
             para.setAttribute("href", "https://www.emag.ro/supermarket/lapte-3-5-grasime-1-7l-napolact-30608/pd/DX87V2MBM/");//lapte
         }
         var node = document.createTextNode(todo3);
-        if(todo3!=null)
-        para.appendChild(node);
+        if(todo3!=null) para.appendChild(node);
         Pdiv = document.createElement("div");
         Pdiv.setAttribute("title","asta e primul div");
-        //var element = document.getElementById("div1");
+        
 
         var RemoveDIV = document.createElement("div");
-        //element.appendChild(RemoveDIV);
-
+        
         var RemoveBTN = document.createElement("button");
         var minus = document.createTextNode("-");
 
 
-        //element.appendChild(para);
-
-        //var unde = document.getElementById("remover");
+        
         para.setAttribute("id", "button" + k.toString());
 
         var br = document.createElement("br");
@@ -68,15 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-        //var unde = document.getElementById("remover");
-        //RemoveBTN.appendChild(minus);
-        //unde.appendChild(RemoveBTN);
-        //RemoveBTN.setAttribute("name", k.toString());
-       // RemoveBTN.setAttribute("id", "button" + k.toString());
-       // RemoveBTN.setAttribute("class", "minus btn-block btn " + k.toString());
-
-        //unde.appendChild(RemoveDIV);
-        //RemoveDIV.appendChild(RemoveBTN);
+        
 
         listuta = document.getElementById("div1");
         div2 = document.createElement("div");
