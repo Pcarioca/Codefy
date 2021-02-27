@@ -160,6 +160,7 @@ p {
   color: rgb(255, 255, 255);
 }
 
+
 #div1 {
   text-align-last: center;
 }
@@ -180,4 +181,9 @@ p {
   font-weight: bolder;
   border-width: 1px;
   border-color: red;
+
+.muie{
+  text-align: end;
+  display:none; /*Cplm ii cu butonu asta?:))*/
+
 }
