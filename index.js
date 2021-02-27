@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         alert("Am intrat in functie");
         var deSters=RemoveBTN.name;
-        var nrDeSters=parseInt(deSters,10);
+        var nrDeSters=parseInt(deSters, 10);
         
 
         
@@ -204,8 +204,30 @@ document.addEventListener('DOMContentLoaded', function () {
         location.reload();
 
             }
-    
-    
 
+        }),
 
-});
+        
+
+localStorage.setItem('user', JSON.stringify(user));  //pentru adaugare in storage
+
+var user = JSON.parse(localStorage.getItem('user')); //pentru a sterge tot ce este stocat in localStorage
+
+localStorage.clear();
+
+var id = null;
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
