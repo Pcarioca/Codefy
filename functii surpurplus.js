@@ -8,13 +8,13 @@ var v = ["Nothing in life is to be feared, it is only to be understood. Now is t
 }
 }
 )
-
-var produse["lapte","paine","oua"]; /*in cazul asta n e 2*/
-var preturi["2 lei","3 lei", "4 lei"];
+/*
+var produse=["lapte","paine","oua"]; in cazul asta n e 2
+var preturi=["2 lei","3 lei", "4 lei"];
 function AfisarePreturi(){
     
-for(j=0;j<nr/*Cate chestii is in localstorage */,j++)
-for(i=0;i<n/*cate produse is*/,i+=1)
+for(j=0;j<nr/*Cate chestii is in localstorage ,j++)
+for(i=0;i<n/*cate produse is,i+=1)
  {Ok=0;
     if(produse[i]==localStorage.getItem(j))
     {
@@ -26,3 +26,5 @@ for(i=0;i<n/*cate produse is*/,i+=1)
     alert("Nu s-a gasit produsul!")
 }
 }
+ma ocup eu dude
+*/
