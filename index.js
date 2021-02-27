@@ -230,4 +230,7 @@ function myMove() {
       elem.style.left = pos + "px"; 
     }
   }
+    document.getElementById("speech").innerHTML = ""
+
+
 }

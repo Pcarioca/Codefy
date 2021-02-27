@@ -224,6 +224,7 @@ p{
   height: 50px;
   position: absolute;
   background-color: red;
+  z-index: 3;
 }
 
 p.speech {
