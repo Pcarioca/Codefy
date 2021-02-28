@@ -196,7 +196,6 @@ p{
 
 }
 .minus{
-
     color: red;
     font-size: 300%;
     background-color:rgb(39, 39, 43);
@@ -204,8 +203,6 @@ p{
     padding-bottom: 0px;
     padding-top:0px;
     width: 80%;
-
-    
 }
 .minus:hover{
 
@@ -217,7 +214,6 @@ p{
     border-color: red;
 
 }
-
 
 #animate {
   position: absolute;
@@ -307,7 +303,7 @@ p{
   animation 5s bodyMotion linear forwards;
 }
 
-#corp
+#corp{
   position: absolute;
   top:25px;
   width:40px;
@@ -320,6 +316,7 @@ p{
   position: absolute;
   top: 25px;
   left:15px;
+}
   .foot{
     width:15px;
     height:7px;
@@ -337,8 +334,6 @@ p{
     right: 0;
     animation 5s rightfoot linear forwards;
   }
-  }
-}
 
 p.speech {
   position: absolute;
@@ -354,11 +349,8 @@ p.speech {
   -webkit-box-shadow: 2px 2px 4px #888;
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
-<<<<<<< Updated upstream
 }
-=======
 }
 
 
 
->>>>>>> Stashed changes
