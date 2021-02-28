@@ -72,18 +72,8 @@ document.addEventListener('DOMContentLoaded', function () {
             div2=document.createElement("div");
             listuta.appendChild(div2);
             div2.appendChild(para);
-
-
-            
-        
     }   
        
-
-
-
-
-
-
     var todo = [];
     document.getElementById("buton").onclick = add;
     document.getElementById("button").onclick = storage;
@@ -207,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         }),
 
-        
+
 
 localStorage.setItem('user', JSON.stringify(user));  //pentru adaugare in storage
 
@@ -230,7 +220,7 @@ function myMove() {
       elem.style.left = pos + "px"; 
     }
   }
-    document.getElementById("speech").innerHTML = ""
+    document.getElementById("speech").innerHTML = "";
 
 
 }
